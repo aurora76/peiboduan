@@ -23,9 +23,9 @@ repository               : "aurora76/peiboduan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "pic.png"#头像
-  name             : "Peibo Duan"#姓名
-  pronouns         : # example: "she/her" #性别称谓 
+  avatar           : "pic.png"
+  name             : "Peibo Duan"
+  pronouns         : # example: "she/her" 
   bio              : "Associate Professor"
   location         : "Shenyang, China"
   employer         : "Northeastern University"
