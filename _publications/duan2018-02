@@ -1,0 +1,19 @@
+---
+title: "A unified STARIMA based model for short-term traffic flow prediction"
+collection: publications
+category: manuscripts
+permalink: /publication/duan2018-02
+excerpt: 'Keywords:Correlation;Roads;Computational modeling;Predictive models;Data models;Detectors;Traffic control'
+date: 2018-02-01
+venue: '2018 21st International Conference on Intelligent Transportation Systems (ITSC)'
+slidesurl: # 'https://academicpages.github.io/files/slides1.pdf'
+paperurl: # 'https://academicpages.github.io/files/paper1.pdf'
+bibtexurl: # 'https://academicpages.github.io/files/bibtex1.bib'
+citation: 'Peibo Duan, Wenwei Yue, Guoqiang Mao. “A unified STARIMA based model for short-term traffic flow prediction”,  <i>2018 21st International Conference on Intelligent Transportation Systems (ITSC)</i>, 2018:1652-1657.'
+---
+
+**Abstract**
+
+This paper proposes a unified spatio-temporal model on the basis of STARIMA (Space-Time AutoRegressive Integrated Moving Average) for short-term road traffic prediction. The contributions of this paper are as follows. First, we develop a physically intuitive approach to traffic prediction that captures the time-varying spatio-temporal correlation between traffic at different measurement points. The spatio-temporal correlation is affected by the road network topology, time-varying speed, and time-varying trip distribution. Distinctly different from previous black-box approaches to road traffic modeling and prediction, parameters of the proposed approach have physically intuitive meanings which make them readily amenable to suit changing road and traffic conditions. Second, unlike some existing techniques which capture the variation of spatio-temporal correlation by a complete redesign and calibration of the model, the proposed approach uses a unified model which incorporates the physical factors potentially affecting the variation of spatio-temporal correlation into a series of parameters. These parameters are relatively easy to control and adjust when road and traffic conditions change, thereby greatly reducing the computational complexity. Experiments using two set of real traffic traces demonstrate that the proposed approach has superior accuracy compared with the widely used ARIMA (AutoRegressive Integrated Moving Average) and is only marginally inferior to that obtained by constructing multiple STARIMA models for different time of the day, however with a much reduced computational and implementation complexity.
+
+---
