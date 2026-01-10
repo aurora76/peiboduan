@@ -1,0 +1,19 @@
+---
+title: "Research Progress in Distributed Constraint Optimization Method"
+collection: publications
+category: manuscripts
+permalink: /publication/duan2016-01
+excerpt: # 'Keywords:'
+date: 2016-01-01
+venue: 'Journal of Software'
+slidesurl: # 'https://academicpages.github.io/files/slides1.pdf'
+paperurl: # 'https://academicpages.github.io/files/paper1.pdf'
+bibtexurl: # 'https://academicpages.github.io/files/bibtex1.bib'
+citation: 'Peibo Duan, Bin Zhang, Changsheng Zhang. “Research Progress in Distributed Constraint Optimization Method”,  <i>Journal of Software</i>, 2016, 2016, 27(2):264-279.'
+---
+
+**Abstract**
+
+Multi agent system, one of important branches of distributed artificial intelligence, has been widely applied to modeling a serious of complex systems in diverse research fields. Significant research effort has sought to solve constraint programming with distributed constraint optimization which is a popular framework for multi agent system. The contributions of this research proceed from previous work in the following ways. First, based on the existing research, the applicability of distributed constraint optimization is analyzed, and general process of distributed constraint optimization algorithms is extracted. Second, a relatively complete classification of algorithms is provided from the perspective of quality assurance and solving strategies. Next, considering execution mechanism, a thorough analysis of a large number of classic algorithms proposed in recent years is carried out. Moreover, the experimental analysis of some typical algorithms with the metrics of communication, solution quality and efficiency is provided. Finally, combining the advantage of distributed constraint optimization technology, the application characteristics of distributed constraint optimization problem are proposed, and future work is discussed.
+
+---
