@@ -11,54 +11,18 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
+* Ph.D. in Intelligent Transportation Technology, University of Technology Sydney, Mar 2017 – present (expected)
+* Ph.D. in Computer Applications Technology, Northeastern University, Sep 2013 – Mar 2017
+* M.S. in Computer Applications Technology, Northeastern University, Sep 2011 – Jul 2013
+* B.S. in Computer Science, Northeastern University, Sep 2007 – Jul 2011
+  
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Mar 2020 – Sep 2020: Researcher
+  * Hong Kong University of Science and Technology
+  * Department: School of Architecture and Construction
+  * Supervisor: Prof. Hai Yang’s Laboratory
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Professional Affiliation
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Member of IEEE (Institute of Electrical and Electronics Engineers)
