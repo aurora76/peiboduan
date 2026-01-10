@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Program"
+# title: "Program"
 permalink: /program/
 author_profile: true
 redirect_from:
