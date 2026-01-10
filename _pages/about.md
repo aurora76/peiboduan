@@ -59,11 +59,9 @@ Research Program
 
 We are offering two master’s positions for 2025 entry. Applicants who meet at least one of the following criteria will receive priority consideration:
 
-<span style="color: #e74c3c;">
-1. Demonstrated intention and aptitude to pursue a Ph.D., with a concrete plan for doctoral study abroad;
-2. Solid engineering foundations, proficiency in at least one programming language, and a clear objective of joining a leading technology company after graduation;
-3. Meeting any one of the above conditions, female candidates are especially encouraged to apply, as we actively strive for gender balance within the research team.
-</span>
+<span style="color: #e74c3c;">1. Demonstrated intention and aptitude to pursue a Ph.D., with a concrete plan for doctoral study abroad;</span>
+<span style="color: #e74c3c;">2. Solid engineering foundations, proficiency in at least one programming language, and a clear objective of joining a leading technology company after graduation;</span>
+<span style="color: #e74c3c;">3. Meeting any one of the above conditions, female candidates are especially encouraged to apply, as we actively strive for gender balance within the research team.</span>
 
 **Admission marks only the beginning of your journey; choosing the right direction is the greatest challenge you will face. If you are still searching for your path, please send me your inquiry by e-mail. We seek individuals who are idealistic, ambitious, thoughtful, respectful—and, above all, patient.**
 
