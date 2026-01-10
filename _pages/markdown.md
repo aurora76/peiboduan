@@ -45,9 +45,3 @@ redirect_from:
   * Virtual Reality Technology Fundamentals
   * Computer Game Technology Fundamentals
 
-
-***
-**Footnotes**
-
-The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
-
