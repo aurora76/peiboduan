@@ -1,29 +1,33 @@
-<!-- _includes/language-switcher.html 适配about-cn -->
+<!-- _includes/language-switcher.html 最终版 -->
 <div class="language-switcher">
   {% assign current_lang = page.lang | default: "en" %}
-  {% assign current_url = page.url | remove: "/" | remove: ".html" %}
-
-  <!-- 单独适配about页面的中文版路径 -->
-  {% if current_url == "about" %}
-    {% if current_lang == "en" %}
-      {% assign target_url = "/about-cn/" %}  <!-- 中文版实际URL -->
-      {% assign lang_text = "中文" %}
-    {% else %}
-      {% assign target_url = "/about/" %}    <!-- 英文版实际URL -->
-      {% assign lang_text = "English" %}
-    {% endif %}
+  {% assign current_permalink = page.permalink | remove: "/" %} <!-- 去掉首尾斜杠，如 life → life，life-cn → life-cn -->
+  
+  <!-- 核心逻辑：根据当前语言生成目标URL -->
+  {% if current_lang == "en" %}
+    <!-- 英文→中文：在permalink后加-cn -->
+    {% assign target_permalink = current_permalink | append: "-cn" %}
+    {% assign lang_text = "中文" %}
   {% else %}
-    <!-- 其他页面（如life）的原有逻辑 -->
-    {% if current_lang == "en" %}
-      {% assign target_url = page.url | remove: "/" | append: "-cn" | prepend: "/" | append: "/" %}
-      {% assign lang_text = "中文" %}
-    {% else %}
-      {% assign target_url = page.url | remove: "/" | replace: "-cn", "" | prepend: "/" | append: "/" %}
-      {% assign lang_text = "English" %}
-    {% endif %}
+    <!-- 中文→英文：去掉permalink中的-cn -->
+    {% assign target_permalink = current_permalink | replace: "-cn", "" %}
+    {% assign lang_text = "English" %}
   {% endif %}
 
-  <a href="{{ target_url | relative_url }}" style="...">
+  <!-- 生成最终跳转URL（加回斜杠，保证格式正确） -->
+  {% assign target_url = "/" | append: target_permalink | append: "/" %}
+
+  <!-- 直接显示按钮（无需判断，测试版已验证跳转有效） -->
+  <a href="{{ target_url | relative_url }}" style="
+    padding: 0.3rem 0.8rem;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    color: #212529;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+  ">
     {{ lang_text }}
   </a>
 </div>
