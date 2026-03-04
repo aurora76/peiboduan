@@ -23,11 +23,11 @@ main:
 
   - title: "团建日常"
     url: /life/
-    children:
-      - title: "中文"
-        url: /life-cn/
-      - title: "English"
-        url: /life/
+      children:
+        - title: "中文"
+          url: /life-cn/
+        - title: "English"
+          url: /life/
 
   # - title: "Portfolio"
   #   url: /portfolio/
