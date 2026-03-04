@@ -8,14 +8,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- 临时测试：强制显示语言切换按钮 -->
-<div style="position: absolute; top: 1rem; right: 2rem; z-index: 999; background: red; padding: 0.5rem;">
-  {% assign current_lang = page.lang | default: "en" %}
-  {% if current_lang == "en" %}
-    <a href="/life-cn/" style="color: white;">中文</a>
-  {% else %}
-    <a href="/life/" style="color: white;">English</a>
-  {% endif %}
+<!-- 语言切换按钮（修复版） -->
+<div style="position: absolute; top: 1rem; right: 2rem; z-index: 999;">
+  {% include language-switcher.html %}
 </div>
 
 <script>
