@@ -1,7 +1,7 @@
 ---
 layout: archive
-# title: "Life"
-permalink: /生活聚会/
+# title: "团建日常"
+permalink: /life-cn/
 author_profile: true
 redirect_from:
   - /resume
