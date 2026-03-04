@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Dr. Peibo Duan(段沛博)"
+title                    : "Dr. Peibo Duan段沛博(Dr. Peibo Duan)"
 title_separator          : "-"
 name                     : &name "Piebo Duan"
 description              : &description "Peibo Duan's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,26 +23,27 @@ repository               : "aurora76/peiboduan"
 #               Additional customization can be done by editing /_includes/author-profile.html
 
   # Biographic information
-  
+# 英文author配置
 en:
   author:
     avatar           : "pic.png"
     name             : "Peibo Duan"
-    pronouns         : # example: "she/her" 
+    pronouns         : 
     bio              : "Associate Professor"
     location         : "Shenyang, China"
     employer         : "Northeastern University"
-    uri              : # URL
-    email            : "duanpeibo@swc.neu.edu.cn" 
+    uri              : 
+    email            : "duanpeibo@swc.neu.edu.cn"
 
+# 中文author配置
 cn:
   author:
-    avatar           : "pic.png"  # 头像不变
-    name             : "段沛博"   # 中文姓名
+    avatar           : "pic.png"       # 头像和英文一致，无需改
+    name             : "段沛博"
     pronouns         : 
-    bio              : "副教授"    # 中文职称
-    location         : "中国沈阳"  # 中文地址
-    employer         : "东北大学"  # 中文单位
+    bio              : "副教授"
+    location         : "中国沈阳"
+    employer         : "东北大学"
     uri              : 
     email            : "duanpeibo@swc.neu.edu.cn"  # 邮箱不变
 
