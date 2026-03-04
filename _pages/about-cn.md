@@ -1,5 +1,5 @@
 ---
-permalink: /aboutme-cn/
+permalink: /about-cn/
 title: "Brief Introduction"
 lang: cn
 author_profile: true
