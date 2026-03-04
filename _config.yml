@@ -23,6 +23,8 @@ repository               : "aurora76/peiboduan"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
+  
+en:
   avatar           : "pic.png"
   name             : "Peibo Duan"
   pronouns         : # example: "she/her" 
@@ -31,6 +33,17 @@ author:
   employer         : "Northeastern University"
   uri              : # URL
   email            : "duanpeibo@swc.neu.edu.cn" 
+
+cn:
+  author:
+    avatar           : "pic.png"  # 头像不变
+    name             : "段沛博"   # 中文姓名
+    pronouns         : 
+    bio              : "副教授"    # 中文职称
+    location         : "中国沈阳"  # 中文地址
+    employer         : "东北大学"  # 中文单位
+    uri              : 
+    email            : "duanpeibo@swc.neu.edu.cn"  # 邮箱不变
 
   # Academic websites
   academia         : # URL
