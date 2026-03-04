@@ -2,6 +2,7 @@
 layout: archive
 # title: "Life"
 permalink: /life/
+lang: en
 author_profile: true
 redirect_from:
   - /resume
