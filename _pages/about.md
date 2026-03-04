@@ -1,7 +1,7 @@
 ---
 layout: archive
 # title: "Life"
-permalink: /about/
+permalink: /
 lang: en
 author_profile: true
 redirect_from:
