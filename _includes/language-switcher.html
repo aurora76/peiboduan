@@ -1,0 +1,24 @@
+<!-- _includes/language-switcher.html -->
+<div class="language-switcher" style="margin-left: 1rem;">
+  {% assign current_lang = page.lang | default: "en" %}
+  {% assign current_path = page.path | replace: "-cn.md", ".md" | replace: ".md", "" %}
+  
+  <!-- 语言切换逻辑 -->
+  {% if current_lang == "en" %}
+    {% assign target_lang = "cn" %}
+    {% assign target_path = current_path | append: "-cn" %}
+    {% assign lang_text = "中文" %}
+  {% else %}
+    {% assign target_lang = "en" %}
+    {% assign target_path = current_path | replace: "-cn", "" %}
+    {% assign lang_text = "English" %}
+  {% endif %}
+
+  <!-- 检查目标语言页面是否存在 -->
+  {% capture target_file %}{{ target_path }}.md{% endcapture %}
+  {% if site.pages contains target_file or site.pages contains target_path %}
+    <a href="{{ target_path | relative_url }}" class="btn btn-sm btn-outline-primary">
+      {{ lang_text }}
+    </a>
+  {% endif %}
+</div>
