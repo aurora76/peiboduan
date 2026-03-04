@@ -8,6 +8,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- 新增：语言切换按钮容器 -->
+<div style="position: absolute; top: 1rem; right: 2rem; z-index: 999;">
+  {% include language-switcher.html %}
+</div>
+
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
