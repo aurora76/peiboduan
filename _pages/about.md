@@ -1,11 +1,11 @@
 ---
-permalink: /
+permalink: /about/
 title: "Brief Introduction"
-# lang: cn
+lang: en
 author_profile: true
 
 redirect_from: 
-  - /about/
+#  - /about/
   - /about.html
 ---
 
