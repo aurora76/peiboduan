@@ -1,7 +1,9 @@
 ---
+layout: archive
+# title: ""
 permalink: /about/
-title: "Brief Introduction"
 lang: en
+
 author_profile: true
 
 redirect_from: 
