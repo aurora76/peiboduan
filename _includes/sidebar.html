@@ -1,16 +1,19 @@
 <!-- _includes/sidebar.html -->
-<!-- 1. 调试信息：先输出关键变量，确认是否获取到值（临时显示，修复后可删除） -->
+<!-- 修复：双重兜底，确保current_lang不为空 -->
+{% assign current_lang = page.lang | default: "" %}
+{% if current_lang != "en" and current_lang != "cn" %}
+  {% assign current_lang = "en" %} <!-- 非en/cn时强制设为英文 -->
+{% endif %}
+
+<!-- 调试信息：新增显示current_lang的原始值，确认问题 -->
 <div style="color: red; font-size: 0.8rem;">
-  调试：current_lang={{ current_lang }} <br>
-  英文author.name={{ site.en.author.name }} <br>
-  中文author.name={{ site.cn.author.name }} <br>
-  动态author.name={{ author.name }}
+  原始page.lang={{ page.lang }} <br>
+  处理后current_lang={{ current_lang }} <br>
+  动态author.name={{ site[current_lang].author.name }}
 </div>
 
-<!-- 2. 简化的变量赋值逻辑（替换原有2行） -->
-{% assign current_lang = page.lang | default: "en" %}
-<!-- 先手动指定语言测试，排除lang匹配问题 -->
-{% assign author = site.en.author %} <!-- 先强制加载英文配置，能显示再改动态 -->
+<!-- 动态加载author配置 -->
+{% assign author = site[current_lang].author %}
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
