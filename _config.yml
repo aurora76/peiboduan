@@ -24,17 +24,16 @@ repository               : "aurora76/peiboduan"
 
   # Biographic information
 
-  author:
-    avatar           : "pic.png"
-    name             : "**段沛博**<br>Peibo Duan"
-    pronouns         : 
-    bio              : "副教授<br>Associate Professor"
-    location         : "中国 沈阳<br>Shenyang, China"
-    employer         : "东北大学<br>Northeastern University"
-    uri              : 
-    email            : "duanpeibo@swc.neu.edu.cn"
+author:
+  avatar           : "pic.png"
+  name             : "**段沛博**<br>Peibo Duan"
+  pronouns         : 
+  bio              : "副教授<br>Associate Professor"
+  location         : "中国 沈阳<br>Shenyang, China"
+  employer         : "东北大学<br>Northeastern University"
+  uri              : 
+  email            : "duanpeibo@swc.neu.edu.cn"
   
-
 
   # Academic websites
   academia         : # URL
