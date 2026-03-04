@@ -1,29 +1,40 @@
-<!-- 修复版 _includes/language-switcher.html -->
+<!-- 带调试信息的 language-switcher.html -->
 <div class="language-switcher">
   {% assign current_lang = page.lang | default: "en" %}
-  {% assign current_slug = page.name | replace: ".md", "" | replace: "-cn", "" %}
-  
-  <!-- 定义目标页面路径 -->
-  {% if current_lang == "en" %}
-    {% assign target_slug = current_slug | append: "-cn" %}
-    {% assign lang_text = "中文" %}
-  {% else %}
-    {% assign target_slug = current_slug %}
-    {% assign lang_text = "English" %}
-  {% endif %}
+  {% assign current_permalink = page.permalink %}
+  {% assign current_page_name = page.name %}
 
-  <!-- 遍历所有页面，检查目标页面是否存在 -->
-  {% assign target_page_exists = false %}
+  <!-- 调试信息：输出当前页面的关键参数（仅你能看到） -->
+  <div style="color: red; font-size: 0.8rem;">
+    调试：当前语言={{ current_lang }} | 当前路径={{ current_permalink }} | 文件名={{ current_page_name }}
+  </div>
+
+  {% assign target_url = "" %}
+  {% assign lang_text = "" %}
+
+  <!-- 原有匹配逻辑 -->
   {% for p in site.pages %}
-    {% if p.name == target_slug | append: ".md" %}
-      {% assign target_page_exists = true %}
-      {% assign target_url = p.url %}
-      {% break %}
+    {% if current_lang == "en" and p.lang == "cn" %}
+      {% assign en_slug = current_permalink | replace: "/", "" %}
+      {% assign cn_slug = p.permalink | replace: "/", "" | replace: "-cn", "" %}
+      {% if cn_slug == en_slug %}
+        {% assign target_url = p.permalink %}
+        {% assign lang_text = "中文" %}
+        {% break %}
+      {% endif %}
+    {% elsif current_lang == "cn" and p.lang == "en" %}
+      {% assign cn_slug = current_permalink | replace: "/", "" | replace: "-cn", "" %}
+      {% assign en_slug = p.permalink | replace: "/", "" %}
+      {% if en_slug == cn_slug %}
+        {% assign target_url = p.permalink %}
+        {% assign lang_text = "English" %}
+        {% break %}
+      {% endif %}
     {% endif %}
   {% endfor %}
 
-  <!-- 只有目标页面存在时，才显示切换按钮 -->
-  {% if target_page_exists %}
+  <!-- 强制显示按钮（注释掉原有判断），并显示目标URL -->
+  <!-- {% if target_url != "" %} -->
     <a href="{{ target_url | relative_url }}" style="
       padding: 0.3rem 0.8rem;
       background: #f8f9fa;
@@ -32,9 +43,8 @@
       color: #212529;
       text-decoration: none;
       font-size: 0.9rem;
-      margin: 0.5rem;
     ">
-      {{ lang_text }}
+      {{ lang_text }}（目标URL：{{ target_url }}）
     </a>
-  {% endif %}
+  <!-- {% endif %} -->
 </div>
