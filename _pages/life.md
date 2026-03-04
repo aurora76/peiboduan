@@ -2,7 +2,7 @@
 layout: archive
 # title: "Life"
 permalink: /life/
-lang: en
+# lang: en
 author_profile: true
 redirect_from:
   - /resume
