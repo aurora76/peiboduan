@@ -13,7 +13,11 @@ Teaching Experience
 ======
 
 **Artificial Intelligence Fundamentals**
+
 **Computer Graphics**
+
 **Data Structures**
+
 **Virtual Reality Technology Fundamentals**
+
 **Computer Game Technology Fundamentals**
