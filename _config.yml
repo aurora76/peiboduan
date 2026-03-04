@@ -34,29 +34,7 @@ repository               : "aurora76/peiboduan"
     uri              : 
     email            : "duanpeibo@swc.neu.edu.cn"
   
-# 英文author配置
-en:
-  author:
-    avatar           : "pic.png"
-    name             : "Peibo Duan"
-    pronouns         : 
-    bio              : "Associate Professor"
-    location         : "Shenyang, China"
-    employer         : "Northeastern University"
-    uri              : 
-    email            : "duanpeibo@swc.neu.edu.cn"
 
-# 中文author配置
-cn:
-  author:
-    avatar           : "pic.png"       # 头像和英文一致，无需改
-    name             : "段沛博"
-    pronouns         : 
-    bio              : "副教授"
-    location         : "中国沈阳"
-    employer         : "东北大学"
-    uri              : 
-    email            : "duanpeibo@swc.neu.edu.cn"  # 邮箱不变
 
   # Academic websites
   academia         : # URL
