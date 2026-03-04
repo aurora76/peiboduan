@@ -1,17 +1,5 @@
 {% include base_path %}
 
-
-<!-- ========== 新增：在文件最开头添加语言判断和author变量赋值 ========== -->
-{% comment %} 1. 优先读取页面lang，无则默认英文（核心新增） {% endcomment %}
-{% if page.lang and page.lang != "" %}
-  {% assign current_lang = page.lang %}
-{% else %}
-  {% assign current_lang = "en" %}
-{% endif %}
-
-{% comment %} 2. 加载对应语言的author配置（核心新增） {% endcomment %}
-{% assign author = site[current_lang].author %}
-
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
