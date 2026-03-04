@@ -14,6 +14,17 @@
     {% assign lang_text = "English" %}
   {% endif %}
 
+  <!-- 单独适配about页面的中文版路径 -->
+  {% if current_url == "about" %}
+    {% if current_lang == "en" %}
+      {% assign target_url = "/about-cn/" %}  <!-- 中文版实际URL -->
+      {% assign lang_text = "中文" %}
+    {% else %}
+      {% assign target_url = "/about/" %}    <!-- 英文版实际URL -->
+      {% assign lang_text = "English" %}
+    {% endif %}
+  {% else %}
+  
   <!-- 生成最终跳转URL（加回斜杠，保证格式正确） -->
   {% assign target_url = "/" | append: target_permalink | append: "/" %}
 
