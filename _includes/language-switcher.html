@@ -1,23 +1,39 @@
-<!-- _includes/language-switcher.html -->
-<div class="language-switcher" style="margin-left: 1rem;">
+<!-- 修复版 _includes/language-switcher.html -->
+<div class="language-switcher">
   {% assign current_lang = page.lang | default: "en" %}
-  {% assign current_path = page.path | replace: "-cn.md", ".md" | replace: ".md", "" %}
+  {% assign current_slug = page.name | replace: ".md", "" | replace: "-cn", "" %}
   
-  <!-- 语言切换逻辑 -->
+  <!-- 定义目标页面路径 -->
   {% if current_lang == "en" %}
-    {% assign target_lang = "cn" %}
-    {% assign target_path = current_path | append: "-cn" %}
+    {% assign target_slug = current_slug | append: "-cn" %}
     {% assign lang_text = "中文" %}
   {% else %}
-    {% assign target_lang = "en" %}
-    {% assign target_path = current_path | replace: "-cn", "" %}
+    {% assign target_slug = current_slug %}
     {% assign lang_text = "English" %}
   {% endif %}
 
-  <!-- 检查目标语言页面是否存在 -->
-  {% capture target_file %}{{ target_path }}.md{% endcapture %}
-  {% if site.pages contains target_file or site.pages contains target_path %}
-    <a href="{{ target_path | relative_url }}" class="btn btn-sm btn-outline-primary">
+  <!-- 遍历所有页面，检查目标页面是否存在 -->
+  {% assign target_page_exists = false %}
+  {% for p in site.pages %}
+    {% if p.name == target_slug | append: ".md" %}
+      {% assign target_page_exists = true %}
+      {% assign target_url = p.url %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- 只有目标页面存在时，才显示切换按钮 -->
+  {% if target_page_exists %}
+    <a href="{{ target_url | relative_url }}" style="
+      padding: 0.3rem 0.8rem;
+      background: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 4px;
+      color: #212529;
+      text-decoration: none;
+      font-size: 0.9rem;
+      margin: 0.5rem;
+    ">
       {{ lang_text }}
     </a>
   {% endif %}
