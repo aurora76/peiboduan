@@ -2,6 +2,7 @@
 layout: archive
 # title: "Program"
 permalink: /program/
+lang: en
 author_profile: true
 redirect_from:
   - /resume
