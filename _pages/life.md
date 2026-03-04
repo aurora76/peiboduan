@@ -7,9 +7,15 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# {% include base_path %}
 
 Party Photos
 ======
 
-![]({{ '/images/1.jpg' | relative_url }})
+![](https://aurora76.github.io/peiboduan/images/1.jpg)
+
+![](https://aurora76.github.io/peiboduan/images/2.jpg)
+
+![](https://aurora76.github.io/peiboduan/images/3.jpg)
+
+![](https://aurora76.github.io/peiboduan/images/4.jpg)
