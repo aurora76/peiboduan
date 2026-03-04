@@ -21,18 +21,19 @@ repository               : "aurora76/peiboduan"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
-author:
+
   # Biographic information
   
 en:
-  avatar           : "pic.png"
-  name             : "Peibo Duan"
-  pronouns         : # example: "she/her" 
-  bio              : "Associate Professor"
-  location         : "Shenyang, China"
-  employer         : "Northeastern University"
-  uri              : # URL
-  email            : "duanpeibo@swc.neu.edu.cn" 
+  author:
+    avatar           : "pic.png"
+    name             : "Peibo Duan"
+    pronouns         : # example: "she/her" 
+    bio              : "Associate Professor"
+    location         : "Shenyang, China"
+    employer         : "Northeastern University"
+    uri              : # URL
+    email            : "duanpeibo@swc.neu.edu.cn" 
 
 cn:
   author:
