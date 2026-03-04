@@ -9,29 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
-Research Field
+Recent Programs
 ======
 
-Core Methodologies
+National-Level
 ------
 
-* Reinforcement learning
-* Spiking neural networks
-* Graph neural networks
+**Long- and Short-Term Psychological-State Recognition and Analysis System Based on Multimodal Data (ZHIXINBAO), *Nov 2022–Dec 2023***
 
-Principal Research Directions
+Provincial-Level
 ------
 
-1. Deep-learning paradigms for intelligent transportation systems, with emphasis on congestion mitigation and traffic-state prediction.  
-2. Deep-learning architectures for quantitative investment, encompassing stock-price forecasting and autonomous trading strategies.  
-3. Deep-learning models for computer vision, specifically micro-expression and micro-motion detection and analysis.
-  
-Program
+**Efficient Supply-Demand Optimization for Ride-Hailing Services Under Multimodal Scenario Changes in Intelligent Transportation, *Mar 2023–Feb 2025***
+
+Municipal-Level
 ------
 
-1. Long- and Short-Term Psychological-State Recognition and Analysis System Based on Multimodal Data
+**Liaoning Energy Production Dispatch Command Center and Sunshine State-Owned Enterprise Platform Project, *Dec 2025–Feb 2026***
 
-   (Research and application of a multimodal-data-based psychological monitoring system; provincial science & technology project)
+**Sleeping Posture Detection Under Intelligent Pillow, *Dec 2025–Feb 2026***
 
-2. Development of an Intelligent Portfolio-Rebalancing Tool in a Stock-Forecasting Environment
-3. Intelligent Traffic Control
+**Development of Intelligent Portfolio-Rebalancing Tool in Stock-Forecasting Environment, *Apr 2023–Dec 2023***
+
+University-Level
+------
+
+**Personalized Stock Portfolio Decision-Making Driven by Dynamic Risk Under Incomplete Market Information, *Jan 2024–Dec 2025***
+
+**Efficient Supply-Demand Optimization for Ride-Hailing Services Under Multimodal Scenario Changes in Intelligent Transportation, *Jan 2022–Dec 2023***
+
