@@ -21,13 +21,8 @@ main:
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "团建日常"
+  - title: "Life"
     url: /life/
-    children:
-      - title: "中文"
-        url: /life/cn/
-      - title: "English"
-        url: /life/
 
   # - title: "Portfolio"
   #   url: /portfolio/
