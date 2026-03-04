@@ -1,11 +1,10 @@
 ---
-permalink: /about-cn/
-title: "Brief Introduction"
+permalink: /
+title: ""
 lang: cn
 author_profile: true
 
 redirect_from: 
-  - /about/
   - /about.html
 ---
 
