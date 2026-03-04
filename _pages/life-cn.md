@@ -2,6 +2,7 @@
 layout: archive
 # title: "团建日常"
 permalink: /life-cn/
+lang: cn
 author_profile: true
 redirect_from:
   - /resume
