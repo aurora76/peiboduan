@@ -1,8 +1,9 @@
 ---
-permalink: /
+permalink: /aboutme/
 title: "Brief Introduction"
-author_profile: true
 lang: en
+author_profile: true
+
 redirect_from: 
   - /about/
   - /about.html
