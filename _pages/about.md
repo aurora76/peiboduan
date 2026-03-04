@@ -1,12 +1,14 @@
 ---
-layout: archive
-# title: "Life"
-permalink: /
-lang: en
+permalink: /about-cn/
+title: "Brief Introduction"
+# lang: cn
 author_profile: true
-redirect_from:
-  - /resume
+
+redirect_from: 
+  - /about/
+  - /about.html
 ---
+
 Duan Peibo is currently an Associate Professor and Master's Supervisor at the School of Software, Northeastern University, and a Member of the Institute of Electrical and Electronics Engineers (IEEE). From 2015 to 2017, he served as a CSC-funded joint doctoral candidate at the University of Technology Sydney (UTS), under the sponsorship of the China Scholarship Council (CSC). He obtained his Doctor of Philosophy (Ph.D.) degree in Computer Science from Northeastern University during the period 2013–2017, and subsequently earned a Ph.D. degree in Big Data and Electronics from UTS from 2017 to 2020 with a full scholarship. In 2020, Dr. Duan worked as a Full-time Researcher at the Hong Kong University of Science and Technology (HKUST), and joined the School of Software, Northeastern University in October of the same year.
 
 Currently, as Principal Investigator (PI), he leads one provincial-level vertical research project (with a total funding of 2.9 million yuan) and one horizontal research project. In recent years, he has published more than 15 papers in top-tier international SCI-indexed journals, including *IEEE Transactions on Intelligent Transportation Systems*, *Transportation Research*, and *Information Sciences*.  
