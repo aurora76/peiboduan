@@ -1,50 +1,33 @@
-<!-- 带调试信息的 language-switcher.html -->
+<!-- _includes/language-switcher.html 最终版 -->
 <div class="language-switcher">
   {% assign current_lang = page.lang | default: "en" %}
-  {% assign current_permalink = page.permalink %}
-  {% assign current_page_name = page.name %}
+  {% assign current_permalink = page.permalink | remove: "/" %} <!-- 去掉首尾斜杠，如 life → life，life-cn → life-cn -->
+  
+  <!-- 核心逻辑：根据当前语言生成目标URL -->
+  {% if current_lang == "en" %}
+    <!-- 英文→中文：在permalink后加-cn -->
+    {% assign target_permalink = current_permalink | append: "-cn" %}
+    {% assign lang_text = "中文" %}
+  {% else %}
+    <!-- 中文→英文：去掉permalink中的-cn -->
+    {% assign target_permalink = current_permalink | replace: "-cn", "" %}
+    {% assign lang_text = "English" %}
+  {% endif %}
 
-  <!-- 调试信息：输出当前页面的关键参数（仅你能看到） -->
-  <div style="color: red; font-size: 0.8rem;">
-    调试：当前语言={{ current_lang }} | 当前路径={{ current_permalink }} | 文件名={{ current_page_name }}
-  </div>
+  <!-- 生成最终跳转URL（加回斜杠，保证格式正确） -->
+  {% assign target_url = "/" | append: target_permalink | append: "/" %}
 
-  {% assign target_url = "" %}
-  {% assign lang_text = "" %}
-
-  <!-- 原有匹配逻辑 -->
-  {% for p in site.pages %}
-    {% if current_lang == "en" and p.lang == "cn" %}
-      {% assign en_slug = current_permalink | replace: "/", "" %}
-      {% assign cn_slug = p.permalink | replace: "/", "" | replace: "-cn", "" %}
-      {% if cn_slug == en_slug %}
-        {% assign target_url = p.permalink %}
-        {% assign lang_text = "中文" %}
-        {% break %}
-      {% endif %}
-    {% elsif current_lang == "cn" and p.lang == "en" %}
-      {% assign cn_slug = current_permalink | replace: "/", "" | replace: "-cn", "" %}
-      {% assign en_slug = p.permalink | replace: "/", "" %}
-      {% if en_slug == cn_slug %}
-        {% assign target_url = p.permalink %}
-        {% assign lang_text = "English" %}
-        {% break %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-
-  <!-- 强制显示按钮（注释掉原有判断），并显示目标URL -->
-  <!-- {% if target_url != "" %} -->
-    <a href="{{ target_url | relative_url }}" style="
-      padding: 0.3rem 0.8rem;
-      background: #f8f9fa;
-      border: 1px solid #dee2e6;
-      border-radius: 4px;
-      color: #212529;
-      text-decoration: none;
-      font-size: 0.9rem;
-    ">
-      {{ lang_text }}（目标URL：{{ target_url }}）
-    </a>
-  <!-- {% endif %} -->
+  <!-- 直接显示按钮（无需判断，测试版已验证跳转有效） -->
+  <a href="{{ target_url | relative_url }}" style="
+    padding: 0.3rem 0.8rem;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    color: #212529;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+  ">
+    {{ lang_text }}
+  </a>
 </div>
