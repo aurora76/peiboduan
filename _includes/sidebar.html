@@ -1,3 +1,6 @@
+{% include base_path %}
+
+
 <!-- ========== 新增：在文件最开头添加语言判断和author变量赋值 ========== -->
 {% comment %} 1. 优先读取页面lang，无则默认英文（核心新增） {% endcomment %}
 {% if page.lang and page.lang != "" %}
