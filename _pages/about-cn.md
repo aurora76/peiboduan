@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /about-cn/
 title: ""
 lang: cn
 author_profile: true
