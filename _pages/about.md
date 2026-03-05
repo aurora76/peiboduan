@@ -22,7 +22,7 @@ redirect_from:
 .custom-details summary {
   font-weight: bold;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 32px;
   color: #2c3e50;
   list-style: none; /* 隐藏默认箭头 */
 }
@@ -47,6 +47,36 @@ redirect_from:
   border-left: 3px solid #3498db;
 }
 </style>
+
+<span style="color: #e74c3c;">2026年硕士火热招生中：招生名额：2人</span>
+======
+
+具备如下意愿与能力者优先：
+
+<ol style="color: #e74c3c;">
+  
+  <li>有读博意愿，具备一定读博素质，且有出国读博打算；</li>
+  <li>毕业到大厂工作，具备一定工程基础能力，熟悉掌握一种编程语言；</li>
+  <li>满足以上条件之一，为保证团队性别平衡，女生具备优势。</li>
+  
+</ol>
+
+**上岸只是人生一个新的开始，正确的方向才是走向未来的最大挑战，如果你还不知道方向，请发邮件，希望你有理想、有抱负、有想法、有尊重，更重要的，是有耐性。**
+
+<span style="color: #e74c3c;">Master’s Admissions 2025 – Two Positions Available</span>
+======
+
+We are offering two master’s positions for 2025 entry. Applicants who meet at least one of the following criteria will receive priority consideration:
+
+<ol style="color: #e74c3c;">
+  
+  <li>Demonstrated intention and aptitude to pursue a Ph.D., with a concrete plan for doctoral study abroad;</li>
+  <li>Solid engineering foundations, proficiency in at least one programming language, and a clear objective of joining a leading technology company after graduation;</li>
+  <li>Meeting any one of the above conditions, female candidates are especially encouraged to apply, as we actively strive for gender balance within the research team.</li>
+  
+</ol>
+
+**Admission marks only the beginning of your journey; choosing the right direction is the greatest challenge you will face. If you are still searching for your path, please send me your inquiry by e-mail. We seek individuals who are idealistic, ambitious, thoughtful, respectful—and, above all, patient.**
 
 <!-- 自定义折叠栏目 -->
 <details class="custom-details">
@@ -117,19 +147,5 @@ Research Program
 * Intelligent Portfolio Rebalancing Engine for Quantitative Trading Environments
 * Adaptive Traffic Control via Intelligent Transportation Systems
 
-<span style="color: #e74c3c;">Master’s Admissions 2025 – Two Positions Available</span>
-======
-
-We are offering two master’s positions for 2025 entry. Applicants who meet at least one of the following criteria will receive priority consideration:
-
-<ol style="color: #e74c3c;">
-  
-  <li>Demonstrated intention and aptitude to pursue a Ph.D., with a concrete plan for doctoral study abroad;</li>
-  <li>Solid engineering foundations, proficiency in at least one programming language, and a clear objective of joining a leading technology company after graduation;</li>
-  <li>Meeting any one of the above conditions, female candidates are especially encouraged to apply, as we actively strive for gender balance within the research team.</li>
-  
-</ol>
-
-**Admission marks only the beginning of your journey; choosing the right direction is the greatest challenge you will face. If you are still searching for your path, please send me your inquiry by e-mail. We seek individuals who are idealistic, ambitious, thoughtful, respectful—and, above all, patient.**
 
 
