@@ -79,6 +79,7 @@ We are offering two master’s positions for 2025 entry. Applicants who meet at 
 **Admission marks only the beginning of your journey; choosing the right direction is the greatest challenge you will face. If you are still searching for your path, please send me your inquiry by e-mail. We seek individuals who are idealistic, ambitious, thoughtful, respectful—and, above all, patient.**
 
 <!-- 自定义折叠栏目 -->
+
 <details class="custom-details">
   <summary>关于我&emsp;&emsp;Brief</summary>
   <div class="details-content">
@@ -100,7 +101,7 @@ Currently, as Principal Investigator (PI), he leads one provincial-level vertica
   <li>计算机游戏技术基础</li>
 </ul>
 <br>
-Peibo Duan is a member of the Intelligent Computing and Service Research Institute led by Professor Bin Zhang. The team consists of over 12 professors, associate professors, and lecturers. Currently, the courses taught by Peibo Duan mainly include:
+&emsp;&emsp;Peibo Duan is a member of the Intelligent Computing and Service Research Institute led by Professor Bin Zhang. The team consists of over 12 professors, associate professors, and lecturers. Currently, the courses taught by Peibo Duan mainly include:
 <ul>
   <li>Computer Graphics</li>
   <li>Fundamentals of Computer Game Technology</li>
@@ -108,50 +109,48 @@ Peibo Duan is a member of the Intelligent Computing and Service Research Institu
   </div>
 </details>
 
+<details class="custom-details">
+  <summary>指导学生及去向&emsp;&emsp;Instructed Students and Post-Graduation Destination</summary>
+  <div class="details-content">
+<h2>已毕业&emsp;Graduated</h2>
+<ul>
+  <li>牛力兴，软件2019级，北大<br>Lixing Niu, Software Engineering Program, Class of 2019; Peking University</li>
+  <li>孙照凯，软件2019级，西工大<br>Zhaokai Sun, Software Engineering Program, Class of 2019; Northwestern Polytechnical University</li>
+  <li>刘席郡，软件2021级，待定<br>Xijun Liu, Software Engineering Program, Class of 2021; TBD (To Be Determined)</li>
+  <li>Hafiza Rafia Tahira (巴基斯坦)， 软件2021级，待定<br>Hafiza Rafia Tahira (Pakistan), B.S. in Software Engineering, Class of 2021; TBD (To Be Determined)</li>
+  <li>李晓航，软件2021级，国企<br>Xiaohang Li, B.S. in Software Engineering, Class of 2021; employed by a state-owned enterprise</li>
+</ul>
+<br>
+<h2>在研硕士&emsp;Post-graduated Masters</h2>
+<ul>
+  <li>罗涵，2023级，硕士<br>Han Luo, M.S. candidate, Class of 2023</li>
+  <li>黄永盛，2023级，硕士<br>Yongsheng Huang, M.S. candidate, Class of 2023</li>
+  <li>薛孝莎，2023级，硕士<br>Xiaosha Xue, M.S. candidate, Class of 2023</li>
+  <li>唐萱，2024级，硕士<br>Xuan Tang, M.S. candidate, Class of 2024</li>
+  <li>辛泽健，2024级，硕士<br>Ze-jian Xin, M.S. candidate, Class of 2024</li>
+</ul>
+<br>
+<h2>联合培养&emsp;Joint-Supervision</h2>
+<ul>
+  <li>刘志鹏，2023级，博士<br>Zhipeng Liu, Ph.D. candidate, Class of 2023</li>
+  <li>曾庆伟，2022级，硕士<br>Qingwei Zeng, M.S. candidate, Class of 2022</li>
+</ul>
+<br>
+<h2>指导竞赛&emsp;Mentored Competition Achievements</h2>
+<ul>
+  <li>2023年全国数学建模大赛，管西康团队，一等奖<br>2023 China Undergraduate Mathematical Contest in Modeling: Team led by Xikang Guan, First Prize (National)</li>
+  <li>2022年计算机设计大赛，杜昀久团队，省一等奖，国二等奖<br>2022 China Computer Design Competition: Team led by Yunjiu Du, Provincial First Prize & National Second Prize</li>
+</ul>
+  </div>
+</details>
 
-
-Research Team
-======
-Peibo Duan is a member of the Intelligent Computing and Service Research Institute led by Professor Bin Zhang. The team consists of over 12 professors, associate professors, and lecturers. Currently, the courses taught by Peibo Duan mainly include:
-
-* Computer Graphics
-* Fundamentals of Computer Game Technology
-
-Instructed Students and Post-Graduation Destination
-------
-
-**Graduated**
-
-* Lixing Niu, Software Engineering Program, Class of 2019; Peking University
-* Zhaokai Sun, Software Engineering Program, Class of 2019; Northwestern Polytechnical University
-* Xijun Liu, Software Engineering Program, Class of 2021; TBD (To Be Determined)
-* Hafiza Rafia Tahira (Pakistan), B.S. in Software Engineering, Class of 2021; TBD (To Be Determined)
-* Xiaohang Li, B.S. in Software Engineering, Class of 2021; employed by a state-owned enterprise.
-
-**Post-graduated Masters**
-
-* Han Luo, M.S. candidate, Class of 2023
-* Yongsheng Huang, M.S. candidate, Class of 2023
-* Xiaosha Xue, M.S. candidate, Class of 2023
-* Xuan Tang, M.S. candidate, Class of 2024
-* Ze-jian Xin, M.S. candidate, Class of 2024
-
-**Joint-Supervision**
-
-* Zhipeng Liu, Ph.D. candidate, Class of 2023
-* Qingwei Zeng, M.S. candidate, Class of 2022
-
-**Mentored Competition Achievements**
-
-* 2023 China Undergraduate Mathematical Contest in Modeling: Team led by Xikang Guan, First Prize (National).
-* 2022 China Computer Design Competition: Team led by Yunjiu Du, Provincial First Prize & National Second Prize.
-
-Research Program
-======
-
-* Multimodal Data-Driven Recognition and Analysis Framework for Long- and Short-Term Psychological States
-* Intelligent Portfolio Rebalancing Engine for Quantitative Trading Environments
-* Adaptive Traffic Control via Intelligent Transportation Systems
-
-
-
+<details class="custom-details">
+  <summary>科研项目&emsp;&emsp;Research Program</summary>
+  <div class="details-content">
+<ul>
+  <li>基于多模态数据的长短期心理状态识别与分析系统<br>Multimodal Data-Driven Recognition and Analysis Framework for Long- and Short-Term Psychological States</li>
+  <li>基于股票预测环境的智能调仓工具的研发<br>Intelligent Portfolio Rebalancing Engine for Quantitative Trading Environments</li>
+  <li>智能交通控制<br>Adaptive Traffic Control via Intelligent Transportation Systems</li>
+</ul>
+  </div>
+</details>
