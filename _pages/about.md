@@ -8,59 +8,71 @@ redirect_from:
   - /resume
 ---
 
-<!-- 第一步：添加两列布局的CSS（放在页面开头，仅影响当前页面） -->
+
+<!-- 自定义折叠栏样式（放在页面开头） -->
 <style>
-/* 两列容器：自动换行，适配手机端 */
-.two-columns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px; /* 列之间的间距，可调整 */
-  margin: 20px 0; /* 上下外边距 */
+/* 折叠容器 */
+.custom-details {
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s ease; /* 展开/收起动画 */
 }
-/* 左列和右列：各占48%宽度（留2%间距），均等分栏 */
-.column {
-  flex: 1;
-  min-width: 300px; /* 手机端小于300px时自动单列显示 */
-  padding: 15px;
-  border: 1px solid #eee; /* 可选：加边框，更清晰 */
-  border-radius: 8px; /* 可选：圆角边框 */
+/* 折叠标题 */
+.custom-details summary {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  color: #2c3e50;
+  list-style: none; /* 隐藏默认箭头 */
 }
-/* 列标题样式（可选） */
-.column h3 {
-  margin-top: 0;
-  color: #333; /* 标题颜色 */
-  border-bottom: 1px solid #ddd; /* 标题下横线 */
-  padding-bottom: 8px;
+/* 自定义展开/收起图标 */
+.custom-details summary::before {
+  content: "▶ "; /* 收起时的箭头 */
+  color: #3498db;
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+/* 展开时旋转箭头 */
+.custom-details[open] summary::before {
+  content: "▼ "; /* 展开时的箭头 */
+  transform: rotate(0deg);
+}
+/* 折叠内容 */
+.custom-details .details-content {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border-left: 3px solid #3498db;
 }
 </style>
 
-<!-- 第二步：写两列内容（Markdown和HTML混写） -->
-<div class="two-columns">
-  <!-- 左列内容 -->
-  <div class="column">
-    <h3>个人简介</h3>
-    姓名：段培博<br>
-    职称：副教授<br>
-    单位：东北大学<br>
-    地址：中国沈阳
-    <!-- 支持Markdown语法，比如粗体 -->
-    **研究领域**：计算机科学与技术、人工智能
-  </div>
+<!-- 自定义折叠栏目 -->
+<details class="custom-details">
+  <summary><h3>关于我  Brief</h3></summary>
+  <div class="details-content">
+    
+    段沛博，副教授，硕士研究生导师，IEEE（Institute of Electrical and Electronics Engineers）会员，2015年月-2017年在澳洲悉尼科技大学做联合培养博士研究生（CSC，国家留学基金委）。2013年-2017年获东北大学计算机博士学位，2017年-2020年，获澳洲悉尼科技大学大数据与电子博士学位（全奖）。2020年到香港科技大学做全职研究员，同年10月，加入东北大学软件学院。目前，作为项目负责人承担省级纵向课题项目1项（总金额290W）、横向课题1项。近年来，在《IEEE Transactions on Intelligent Transportation Systems》、《Transportation Research》、《Information Science》等国际顶级SCI期刊发表论文15余篇。 
+    
+    <br>
+    
+    Duan Peibo is currently an Associate Professor and Master's Supervisor at the School of Software, Northeastern University, and a Member of the Institute of Electrical and Electronics Engineers (IEEE). From 2015 to 2017, he served as a CSC-funded joint doctoral candidate at the University of Technology Sydney (UTS), under the sponsorship of the China Scholarship Council (CSC). He obtained his Doctor of Philosophy (Ph.D.) degree in Computer Science from Northeastern University during the period 2013–2017, and subsequently earned a Ph.D. degree in Big Data and Electronics from UTS from 2017 to 2020 with a full scholarship. In 2020, Dr. Duan worked as a Full-time Researcher at the Hong Kong University of Science and Technology (HKUST), and joined the School of Software, Northeastern University in October of the same year.
 
-  <!-- 右列内容 -->
-  <div class="column">
-    <h3>研究方向</h3>
-    1. 机器学习与数据挖掘<br>
-    2. 智能系统与应用<br>
-    3. 工业大数据分析
-    <!-- 也可以加列表、链接等 -->
-    联系方式：<a href="mailto:duanpeibo@swc.neu.edu.cn">duanpeibo@swc.neu.edu.cn</a>
-  </div>
-</div>
+Currently, as Principal Investigator (PI), he leads one provincial-level vertical research project (with a total funding of 2.9 million yuan) and one horizontal research project. In recent years, he has published more than 15 papers in top-tier international SCI-indexed journals, including *IEEE Transactions on Intelligent Transportation Systems*, *Transportation Research*, and *Information Sciences*.  
 
-<!-- 两列下方的其他内容（正常显示） -->
-## 其他说明
-这部分内容会显示在两列下方，和普通页面一样。
+    <a href="#">查看更多成果</a>
+  </div>
+</details>
+
+<details class="custom-details">
+  <summary>工作经历（点击展开/收起）</summary>
+  <div class="details-content">
+    20XX-至今：东北大学 计算机学院 副教授<br>
+    20XX-20XX：XX研究院 高级工程师
+  </div>
+</details>
 
 
 Duan Peibo is currently an Associate Professor and Master's Supervisor at the School of Software, Northeastern University, and a Member of the Institute of Electrical and Electronics Engineers (IEEE). From 2015 to 2017, he served as a CSC-funded joint doctoral candidate at the University of Technology Sydney (UTS), under the sponsorship of the China Scholarship Council (CSC). He obtained his Doctor of Philosophy (Ph.D.) degree in Computer Science from Northeastern University during the period 2013–2017, and subsequently earned a Ph.D. degree in Big Data and Electronics from UTS from 2017 to 2020 with a full scholarship. In 2020, Dr. Duan worked as a Full-time Researcher at the Hong Kong University of Science and Technology (HKUST), and joined the School of Software, Northeastern University in October of the same year.
