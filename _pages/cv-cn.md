@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育经历
 ------
 
 |学校|专业|学位|状态|时间|
