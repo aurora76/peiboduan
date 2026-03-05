@@ -10,15 +10,15 @@ redirect_from:
 
 {% include base_path %}
 
-Major Courses
+主要课程
 ======
 
-**Artificial Intelligence Fundamentals**
+**人工智能基础**
 
-**Computer Graphics**
+**计算机图形学**
 
-**Data Structures**
+**数据结构**
 
-**Virtual Reality Technology Fundamentals**
+**虚拟现实技术基础**
 
-**Computer Game Technology Fundamentals**
+**计算机游戏技术基础**
