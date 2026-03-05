@@ -22,7 +22,7 @@ redirect_from:
 .custom-details summary {
   font-weight: bold;
   cursor: pointer;
-  font-size: 28px;
+  font-size: 22px;
   color: #2c3e50;
   list-style: none; /* 隐藏默认箭头 */
 }
@@ -83,18 +83,21 @@ We are offering two master’s positions for 2025 entry. Applicants who meet at 
 <details class="custom-details">
   <summary>关于我&emsp;&emsp;Brief</summary>
   <div class="details-content">
+    <br>
 &emsp;&emsp;段沛博，副教授，硕士研究生导师，IEEE（Institute of Electrical and Electronics Engineers）会员，2015年月-2017年在澳洲悉尼科技大学做联合培养博士研究生（CSC，国家留学基金委）。2013年-2017年获东北大学计算机博士学位，2017年-2020年，获澳洲悉尼科技大学大数据与电子博士学位（全奖）。2020年到香港科技大学做全职研究员，同年10月，加入东北大学软件学院。目前，作为项目负责人承担省级纵向课题项目1项（总金额290W）、横向课题1项。近年来，在《IEEE Transactions on Intelligent Transportation Systems》、《Transportation Research》、《Information Science》等国际顶级SCI期刊发表论文15余篇。 
     <br>
     <br>
 &emsp;&emsp;Duan Peibo is currently an Associate Professor and Master's Supervisor at the School of Software, Northeastern University, and a Member of the Institute of Electrical and Electronics Engineers (IEEE). From 2015 to 2017, he served as a CSC-funded joint doctoral candidate at the University of Technology Sydney (UTS), under the sponsorship of the China Scholarship Council (CSC). He obtained his Doctor of Philosophy (Ph.D.) degree in Computer Science from Northeastern University during the period 2013–2017, and subsequently earned a Ph.D. degree in Big Data and Electronics from UTS from 2017 to 2020 with a full scholarship. In 2020, Dr. Duan worked as a Full-time Researcher at the Hong Kong University of Science and Technology (HKUST), and joined the School of Software, Northeastern University in October of the same year.
     <br>
 Currently, as Principal Investigator (PI), he leads one provincial-level vertical research project (with a total funding of 2.9 million yuan) and one horizontal research project. In recent years, he has published more than 15 papers in top-tier international SCI-indexed journals, including *IEEE Transactions on Intelligent Transportation Systems*, *Transportation Research*, and *Information Sciences*.  
+    <br>
   </div>
 </details>
 
 <details class="custom-details">
   <summary>科研团队&emsp;&emsp;Research Team</summary>
   <div class="details-content">
+    <br>
 &emsp;&emsp;段沛博所在的科研团队是以张斌教授为核心的智能计算与服务研究所，团队中包含教授、副教授及讲师工12余人。目前段沛博所教授课程主要为：
 <ul>
   <li>计算机图形学</li>
@@ -112,7 +115,7 @@ Currently, as Principal Investigator (PI), he leads one provincial-level vertica
 <details class="custom-details">
   <summary>指导学生及去向&emsp;&emsp;Instructed Students and Post-Graduation Destination</summary>
   <div class="details-content">
-<h2>已毕业&emsp;Graduated</h2>
+<h1>已毕业&emsp;Graduated</h1>
 <ul>
   <li>牛力兴，软件2019级，北大<br>Lixing Niu, Software Engineering Program, Class of 2019; Peking University</li>
   <li>孙照凯，软件2019级，西工大<br>Zhaokai Sun, Software Engineering Program, Class of 2019; Northwestern Polytechnical University</li>
@@ -130,7 +133,7 @@ Currently, as Principal Investigator (PI), he leads one provincial-level vertica
   <li>辛泽健，2024级，硕士<br>Ze-jian Xin, M.S. candidate, Class of 2024</li>
 </ul>
 <br>
-<h2>联合培养&emsp;Joint-Supervision</h2>
+<h3>联合培养&emsp;Joint-Supervision</h3>
 <ul>
   <li>刘志鹏，2023级，博士<br>Zhipeng Liu, Ph.D. candidate, Class of 2023</li>
   <li>曾庆伟，2022级，硕士<br>Qingwei Zeng, M.S. candidate, Class of 2022</li>
