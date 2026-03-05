@@ -8,6 +8,49 @@ redirect_from:
   - /resume
 ---
 
+<style>
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+.column {
+  flex: 1;
+  min-width: 300px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+.column h3 {
+  margin-top: 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+</style>
+
+<!-- 两列内容（直接写div，不要用```包裹） -->
+<div class="two-columns">
+  <div class="column">
+    <h3>个人简介</h3>
+    姓名：段培博<br>
+    职称：副教授<br>
+    单位：东北大学<br>
+    **研究领域**：计算机科学与技术、人工智能
+  </div>
+  <div class="column">
+    <h3>研究方向</h3>
+    1. 机器学习与数据挖掘<br>
+    2. 智能系统与应用<br>
+    3. 工业大数据分析<br>
+    联系方式：<a href="mailto:duanpeibo@swc.neu.edu.cn">duanpeibo@swc.neu.edu.cn</a>
+  </div>
+</div>
+
+## 下方普通内容
+这部分会正常显示在两列下方，和普通Markdown一样。
+
+
 Duan Peibo is currently an Associate Professor and Master's Supervisor at the School of Software, Northeastern University, and a Member of the Institute of Electrical and Electronics Engineers (IEEE). From 2015 to 2017, he served as a CSC-funded joint doctoral candidate at the University of Technology Sydney (UTS), under the sponsorship of the China Scholarship Council (CSC). He obtained his Doctor of Philosophy (Ph.D.) degree in Computer Science from Northeastern University during the period 2013–2017, and subsequently earned a Ph.D. degree in Big Data and Electronics from UTS from 2017 to 2020 with a full scholarship. In 2020, Dr. Duan worked as a Full-time Researcher at the Hong Kong University of Science and Technology (HKUST), and joined the School of Software, Northeastern University in October of the same year.
 
 Currently, as Principal Investigator (PI), he leads one provincial-level vertical research project (with a total funding of 2.9 million yuan) and one horizontal research project. In recent years, he has published more than 15 papers in top-tier international SCI-indexed journals, including *IEEE Transactions on Intelligent Transportation Systems*, *Transportation Research*, and *Information Sciences*.  
