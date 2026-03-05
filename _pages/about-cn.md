@@ -5,8 +5,7 @@ lang: cn
 author_profile: true
 
 redirect_from: 
-  - /about-cn/
-  - /about.html
+  - /resume
 ---
 
 段沛博，副教授，硕士研究生导师，IEEE（Institute of Electrical and Electronics Engineers）会员，2015年月-2017年在澳洲悉尼科技大学做联合培养博士研究生（CSC，国家留学基金委）。2013年-2017年获东北大学计算机博士学位，2017年-2020年，获澳洲悉尼科技大学大数据与电子博士学位（全奖）。2020年到香港科技大学做全职研究员，同年10月，加入东北大学软件学院。目前，作为项目负责人承担省级纵向课题项目1项（总金额290W）、横向课题1项。近年来，在《IEEE Transactions on Intelligent Transportation Systems》、《Transportation Research》、《Information Science》等国际顶级SCI期刊发表论文15余篇。 
