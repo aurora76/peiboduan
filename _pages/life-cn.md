@@ -22,7 +22,7 @@ redirect_from:
 ![](https://aurora76.github.io/peiboduan/images/4.jpg)
 
 
-Photos with Graduates
+毕业合照
 ======
 
 ![](https://aurora76.github.io/peiboduan/images/11.jpg)
